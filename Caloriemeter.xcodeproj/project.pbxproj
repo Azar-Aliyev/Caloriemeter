@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB04FDC7244F85B900A80423 /* Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB04FDC6244F85B900A80423 /* Choice.swift */; };
+		BB04FDC9244F91EE00A80423 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB04FDC8244F91EE00A80423 /* Data.swift */; };
+		BBB1704F2452500A006A6377 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB1704E2452500A006A6377 /* Strings.swift */; };
+		BBB170512452F028006A6377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB170502452F028006A6377 /* Assets.xcassets */; };
 		BBC7C5812424136300FE994B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC7C5802424136300FE994B /* AppDelegate.swift */; };
 		BBC7C5832424136300FE994B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC7C5822424136300FE994B /* SceneDelegate.swift */; };
-		BBC7C5852424136300FE994B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC7C5842424136300FE994B /* ViewController.swift */; };
+		BBC7C5852424136300FE994B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC7C5842424136300FE994B /* MainViewController.swift */; };
 		BBC7C5882424136300FE994B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC7C5862424136300FE994B /* Main.storyboard */; };
-		BBC7C58A2424136500FE994B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC7C5892424136500FE994B /* Assets.xcassets */; };
 		BBC7C58D2424136600FE994B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC7C58B2424136600FE994B /* LaunchScreen.storyboard */; };
+		BBC7C59524252FF700FE994B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC7C59424252FF700FE994B /* DetailViewController.swift */; };
+		BBDA7F88243288AE00597EDB /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDA7F87243288AE00597EDB /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB04FDC6244F85B900A80423 /* Choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choice.swift; sourceTree = "<group>"; };
+		BB04FDC8244F91EE00A80423 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		BBB1704E2452500A006A6377 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		BBB170502452F028006A6377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBC7C57D2424136300FE994B /* Caloriemeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caloriemeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC7C5802424136300FE994B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBC7C5822424136300FE994B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BBC7C5842424136300FE994B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBC7C5842424136300FE994B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BBC7C5872424136300FE994B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BBC7C5892424136500FE994B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBC7C58C2424136600FE994B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBC7C58E2424136600FE994B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC7C59424252FF700FE994B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BBDA7F87243288AE00597EDB /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB04FDC3244E392A00A80423 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BBC7C5842424136300FE994B /* MainViewController.swift */,
+				BBC7C59424252FF700FE994B /* DetailViewController.swift */,
+				BBDA7F87243288AE00597EDB /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB04FDC4244E394100A80423 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB04FDC6244F85B900A80423 /* Choice.swift */,
+				BB04FDC8244F91EE00A80423 /* Data.swift */,
+				BBB1704E2452500A006A6377 /* Strings.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB04FDC5244E394A00A80423 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BBC7C5862424136300FE994B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BBC7C5742424136300FE994B = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +94,14 @@
 		BBC7C57F2424136300FE994B /* Caloriemeter */ = {
 			isa = PBXGroup;
 			children = (
+				BB04FDC4244E394100A80423 /* Model */,
+				BB04FDC3244E392A00A80423 /* Controller */,
+				BB04FDC5244E394A00A80423 /* View */,
 				BBC7C5802424136300FE994B /* AppDelegate.swift */,
 				BBC7C5822424136300FE994B /* SceneDelegate.swift */,
-				BBC7C5842424136300FE994B /* ViewController.swift */,
-				BBC7C5862424136300FE994B /* Main.storyboard */,
-				BBC7C5892424136500FE994B /* Assets.xcassets */,
 				BBC7C58B2424136600FE994B /* LaunchScreen.storyboard */,
 				BBC7C58E2424136600FE994B /* Info.plist */,
+				BBB170502452F028006A6377 /* Assets.xcassets */,
 			);
 			path = Caloriemeter;
 			sourceTree = "<group>";
@@ -126,7 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBC7C58D2424136600FE994B /* LaunchScreen.storyboard in Resources */,
-				BBC7C58A2424136500FE994B /* Assets.xcassets in Resources */,
+				BBB170512452F028006A6377 /* Assets.xcassets in Resources */,
 				BBC7C5882424136300FE994B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBC7C5852424136300FE994B /* ViewController.swift in Sources */,
+				BB04FDC9244F91EE00A80423 /* Data.swift in Sources */,
+				BB04FDC7244F85B900A80423 /* Choice.swift in Sources */,
+				BBB1704F2452500A006A6377 /* Strings.swift in Sources */,
+				BBDA7F88243288AE00597EDB /* ResultViewController.swift in Sources */,
+				BBC7C5852424136300FE994B /* MainViewController.swift in Sources */,
 				BBC7C5812424136300FE994B /* AppDelegate.swift in Sources */,
 				BBC7C5832424136300FE994B /* SceneDelegate.swift in Sources */,
+				BBC7C59524252FF700FE994B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
